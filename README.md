@@ -41,7 +41,7 @@ use MyPlugin\GitHub_Plugin_Updater;
  * Your theme will require GitHub_Theme_Updater to be loaded under a custom namespace.
  * Ideally use an autoloader, but for the sake of functionality we are using require_once here.
  */
-require_once get_template_directory() . '/update.php';
+require_once get_template_directory() . '/class-github-theme-updater.php';
 use MyTheme\GitHub_Theme_Updater;
 ( new GitHub_Theme_Updater( 'custom-theme', '1.0.0', 'https://api.github.com/repos/username|org/repo-name' ) )->init();
 ```
