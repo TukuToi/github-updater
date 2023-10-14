@@ -20,7 +20,7 @@ use MyPlugin\GitHub_Plugin_Updater;
 ```
 
 - Make sure to replace `username|org` with _either_ the username or orgname depending on where your `repo-name` is located
-- Make sure that on each update, you update the veresion (default to `1.0.0`) in the class paramater when invoking it
+- Make sure that on each update, you update the version (default to `1.0.0`) in the class paramater when invoking it
 - Make sure to namespace each instance (every plugin will have its own namespace)
 - Make sure to use create a proper, installable zip file with the exact same name as your Plugin has when installed.
     - That ZIP must be uploaded to the GitHub Release in the `Attach binaries by dropping them here or selecting them.` section
@@ -47,7 +47,7 @@ use MyTheme\GitHub_Theme_Updater;
 ```
 
 - Make sure to replace `username|org` with _either_ the username or orgname depending on where your `repo-name` is located
-- Make sure that on each update, you update the veresion (default to `1.0.0`) in the class paramater when invoking it
+- Make sure that on each update, you update the version (default to `1.0.0`) in the class paramater when invoking it
 - Make sure to namespace each instance (every theme will have its own namespace)
 - Make sure to use create a proper, installable zip file with the exact same name as your Theme has when installed.
     - That ZIP must be uploaded to the GitHub Release in the `Attach binaries by dropping them here or selecting them.` section
