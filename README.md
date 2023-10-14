@@ -56,3 +56,8 @@ use MyTheme\GitHub_Theme_Updater;
     - You must use releases to push updates
     - Of course you will NOT update child-themes (that would destroy the user's work)
     - Note that your "theme name" or "theme slug" in this context is always the thems' folder name, and that in general has to match the theme name set in stylesheet (`Theme Name`, `theme-name`)
+
+## Testing
+
+You can test this setup without touching your "real" software by setting up a new, separate public GitHub Repository with the code of a theme or plugin (can be minimal) and including the updaters as outlined above.
+Then, create a GitHub Release and trigger the update check in your WP Admin (of course you will need the "test" plugin or theme installed and active).
